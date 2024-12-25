@@ -1,0 +1,12 @@
+# Editor
+export EDITOR="micro"
+export VISUAL="micro"
+
+# History
+export HISTFILE="$ZDOTDIR/.zhistory"
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTDUP=erase
+
+# PNPM Home
+export PNPM_HOME="/home/craig/.config/pnpm/global"

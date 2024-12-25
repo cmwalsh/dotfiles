@@ -1,0 +1,21 @@
+# History
+setopt appendhistory
+setopt sharehistory
+setopt incappendhistory
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
+# case insensitive path-completion
+autoload -U compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+# Set the path for pnpm binaries
+path+=('/home/craig/.config/pnpm/global')
+
+# kitty ssh fix
+[[ "$TERM" == "xterm-kitty" ]] && alias ssh="TERM=xterm-256color ssh"
+
+# Use the Starship prompt (https://starship.rs)
+eval "$(starship init zsh)"

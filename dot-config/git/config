@@ -1,0 +1,9 @@
+[user]
+  email = "319043+cmwalsh@users.noreply.github.com"
+  name = "Craig Walsh"
+[init]
+  defaultBranch = "main"
+[push]
+  default = "matching"
+[pull]
+  rebase = false

@@ -1,0 +1,9 @@
+# Firefly
+Host firefly
+  HostName firefly.serenity.internal
+  User sysadmin
+
+# Rocinante
+Host rocinante
+  HostName rocinante.serenity.internal
+  User sysadmin
