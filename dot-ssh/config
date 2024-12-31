@@ -1,9 +1,14 @@
+# Added by VS Code
+Host 192.168.3.6
+  HostName 192.168.3.6
+  User sysadmin
+
 # Firefly
 Host firefly
-  HostName firefly.serenity.internal
+  HostName firefly.serenity.lan
   User sysadmin
 
 # Rocinante
 Host rocinante
-  HostName rocinante.serenity.internal
+  HostName rocinante.serenity.lan
   User sysadmin
